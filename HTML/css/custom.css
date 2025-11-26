@@ -1,0 +1,132 @@
+/* ==========================================================================
+   OnlineTranslation.ae Brand Colors
+   Primary: Red (#df1d51)
+   Secondary: Blue (#2a3f98)
+   Accent: Gold (#b38a4c)
+   ========================================================================== */
+
+/* Root Variables */
+:root {
+    --primary: #df1d51;
+    --primary-hover: #c41945;
+    --secondary: #2a3f98;
+    --secondary-hover: #1e2f73;
+    --accent: #b38a4c;
+}
+
+/* ==========================================================================
+   Primary Red
+   ========================================================================== */
+
+.text-color-primary {
+    color: #df1d51 !important;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: #df1d51 !important;
+    border-color: #df1d51 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #c41945 !important;
+    border-color: #c41945 !important;
+}
+
+.border-color-primary {
+    border-color: #df1d51 !important;
+}
+
+/* SVG Icons */
+.svg-fill-color-primary path,
+.svg-fill-color-primary g[fill] {
+    fill: #df1d51 !important;
+}
+
+/* ==========================================================================
+   Secondary Blue
+   ========================================================================== */
+
+.text-color-secondary {
+    color: #2a3f98 !important;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: #2a3f98 !important;
+    border-color: #2a3f98 !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    background-color: #1e2f73 !important;
+    border-color: #1e2f73 !important;
+}
+
+/* ==========================================================================
+   Accent Gold
+   ========================================================================== */
+
+.text-color-accent {
+    color: #b38a4c !important;
+}
+
+.bg-accent {
+    background-color: #b38a4c !important;
+}
+
+/* ==========================================================================
+   WHY US Text Mask – Visibility + Background Control
+   ========================================================================== */
+
+/* Generic masked text (e.g. WHY / WHY US) */
+.custom-text-background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% auto;        /* tweak 90–150% to taste */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Big responsive headline size for masked text */
+.custom-text-background.custom-big-font-size-1 {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    line-height: 0.9;
+    display: inline-block;
+    white-space: nowrap;               /* keep WHY US on one line */
+}
+
+/* Make sure the section doesn't clip the big text */
+.section-height-4,
+.section-height-4 .container,
+.section-height-4 .row,
+.section-height-4 [class*="col-"] {
+    overflow: visible !important;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+a.text-color-primary:hover {
+    color: #c41945 !important;
+}
+
+/* ==========================================================================
+   Custom Button Style (Porto specific)
+   ========================================================================== */
+
+.custom-btn-style-1 {
+    background-color: #df1d51 !important;
+    border-color: #df1d51 !important;
+}
+
+.custom-btn-style-1:hover {
+    background-color: #c41945 !important;
+    border-color: #c41945 !important;
+}
